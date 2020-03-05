@@ -7,4 +7,5 @@ object Versions {
     val junitExtVersion = "1.1.1"
     val espressoVersion = "3.2.0"
     val buildGradleVersion = "3.6.0"
+    val koinVersion = "2.1.3"
 }

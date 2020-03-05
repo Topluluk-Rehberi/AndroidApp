@@ -7,4 +7,7 @@ object Dependencies {
     val junit = "junit:junit:${Versions.junitVersion}"
     val junitExt = "androidx.test.ext:junit:${Versions.junitExtVersion}"
     val espresso = "androidx.test.espresso:espresso-core:${Versions.espressoVersion}"
+    val koin = "org.koin:koin-android:${Versions.koinVersion}"
+    val koinScope = "org.koin:koin-android-scope:${Versions.koinVersion}"
+    val koinViewModel = "org.koin:koin-android-viewmodel:${Versions.koinVersion}"
 }
