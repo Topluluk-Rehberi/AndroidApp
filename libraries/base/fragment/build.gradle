@@ -1,0 +1,13 @@
+apply plugin: Plugins.androidLibrary
+apply plugin: Plugins.kotlinAndroid
+apply plugin: Plugins.kotlinAndroidExtension
+
+dependencies {
+    implementation Dependencies.kotlinJdk
+    implementation Dependencies.appCompat
+    implementation Dependencies.coreKtx
+
+    testImplementation Dependencies.junit
+    androidTestImplementation Dependencies.junitExt
+    androidTestImplementation Dependencies.espresso
+}
