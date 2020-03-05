@@ -2,6 +2,12 @@ apply plugin: Plugins.androidLibrary
 apply plugin: Plugins.kotlinAndroid
 apply plugin: Plugins.kotlinAndroidExtension
 
+android {
+    dataBinding {
+        enabled = true
+    }
+}
+
 dependencies {
     implementation Dependencies.kotlinJdk
     implementation Dependencies.appCompat
