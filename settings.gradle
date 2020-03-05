@@ -1,3 +1,4 @@
 rootProject.name='Topluluk Rehberi'
 include ':app'
 include ':buildSrc'
+include ':features:list'
